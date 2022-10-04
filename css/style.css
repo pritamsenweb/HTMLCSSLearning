@@ -32,7 +32,7 @@ p {
 }
 #parent {
   border: 1px solid chocolate;
-  width: 10mm;
+  width: 100mm;
 }
 #child {
 }
