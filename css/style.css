@@ -30,3 +30,8 @@ p {
   font-weight: 600;
   font-variant: small-caps;
 }
+#parent {
+  border: 1px solid chocolate;
+}
+#child {
+}
