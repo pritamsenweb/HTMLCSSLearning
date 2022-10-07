@@ -38,3 +38,9 @@ p {
   border: 1px solid red;
   width: 50%;
 }
+.psp::first-letter {
+  font-size: 50px;
+  color: aqua;
+  font-style: italic;
+  font-weight: 700;
+}
