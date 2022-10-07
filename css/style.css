@@ -48,3 +48,6 @@ p {
   color: beige;
   background-color: chartreuse;
 }
+.blockem {
+  border: 1px solid red;
+}
