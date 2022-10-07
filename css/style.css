@@ -44,3 +44,7 @@ p {
   font-style: italic;
   font-weight: 700;
 }
+::selection {
+  color: beige;
+  background-color: chartreuse;
+}
