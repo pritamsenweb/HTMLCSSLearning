@@ -56,4 +56,21 @@ p {
 }
 #disparent {
   border: 2px solid chocolate;
+  padding: 30px;
+  width: 60%;
+}
+#one {
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+}
+#two {
+  background-color: crimson;
+  height: 200px;
+  width: 200px;
+}
+#three {
+  background-color: cyan;
+  height: 200px;
+  width: 200px;
 }
