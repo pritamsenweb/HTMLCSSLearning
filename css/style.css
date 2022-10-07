@@ -63,17 +63,17 @@ p {
   background-color: blueviolet;
   height: 200px;
   width: 200px;
-  position: inline-block;
+  display: inline-block;
 }
 #two {
   background-color: crimson;
   height: 200px;
   width: 200px;
-  position: inline-block;
+  display: inline-block;
 }
 #three {
   background-color: cyan;
   height: 200px;
   width: 200px;
-  position: inline-block;
+  display: inline-block;
 }
