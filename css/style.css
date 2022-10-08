@@ -77,3 +77,6 @@ p {
   width: 100px;
   display: inline-block;
 }
+#nav {
+  background-color: aquamarine;
+}
