@@ -79,7 +79,8 @@ p {
 }
 #nav {
   background-color: aquamarine;
+  list-style-type: none;
 }
-#nav ul li {
+#nav li {
   font-size: 20px;
 }
