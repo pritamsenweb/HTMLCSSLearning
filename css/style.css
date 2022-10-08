@@ -80,7 +80,7 @@ p {
 #nav {
   background-color: aquamarine;
   list-style-type: none;
-  border: 2px solid red;
+  overflow: auto;
 }
 #nav li {
   font-size: 20px;
