@@ -125,5 +125,5 @@ p {
   border: 2px solid royalblue;
   background-color: blueviolet;
   animation-name: changecolor;
-  animation-duration: 3s;
+  animation-duration: 6s;
 }
