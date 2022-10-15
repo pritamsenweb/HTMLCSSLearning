@@ -97,3 +97,33 @@ p {
 #search:hover {
   width: 250px;
 }
+@keyframes changecolor {
+  0% {
+    background-color: blueviolet;
+    width: 220px;
+  }
+  25% {
+    background-color: brown;
+    height: 220px;
+  }
+  50% {
+    background-color: yellowgreen;
+    height: 250px;
+    width: 250px;
+  }
+  75% {
+    background-color: tomato;
+    width: 210px;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+#anim {
+  width: 200px;
+  height: 200px;
+  border: 2px solid royalblue;
+  background-color: blueviolet;
+  animation-name: changecolor;
+  animation-duration: 3s;
+}
