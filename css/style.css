@@ -126,4 +126,5 @@ p {
   background-color: blueviolet;
   animation-name: changecolor;
   animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
