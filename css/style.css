@@ -91,7 +91,7 @@ p {
   border: 2px solid aquamarine;
   width: 200px;
   transition-property: width;
-  transition-delay: 1s;
+  transition-duration: 1s;
 }
 #search:hover {
   width: 250px;
