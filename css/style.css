@@ -87,3 +87,11 @@ p {
   padding: 10px 10px;
   float: left;
 }
+#search {
+  border: 2px solid aquamarine;
+  width: 200px;
+  transition-property: width;
+}
+#search:hover {
+  width: 250px;
+}
