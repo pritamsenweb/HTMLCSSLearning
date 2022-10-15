@@ -20,11 +20,111 @@ a:active {
   background-color: blue;
 }
 h1 {
+  font-family: "Gemunu Libre", sans-serif;
   font-size: 45px;
 }
 p {
+  font-family: "Oswald", sans-serif;
   font-size: 25px;
   font-style: italic;
   font-weight: 600;
-  font-variant: small-caps;
+  /*font-variant: small-caps;*/
+}
+#parent {
+  border: 1px solid chocolate;
+  width: 100mm;
+}
+#child {
+  border: 1px solid red;
+  width: 50%;
+}
+.psp::first-letter {
+  font-size: 50px;
+  color: aqua;
+  font-style: italic;
+  font-weight: 700;
+}
+::selection {
+  color: beige;
+  background-color: chartreuse;
+}
+.blockem {
+  border: 1px solid red;
+  /*width: 50%;
+  height: 50px;*/
+  display: inline;
+}
+#disparent {
+  border: 2px solid chocolate;
+  padding: 30px;
+  width: 60%;
+}
+#one {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+#two {
+  background-color: crimson;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+#three {
+  background-color: cyan;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+#nav {
+  background-color: aquamarine;
+  list-style-type: none;
+  overflow: auto;
+}
+#nav li {
+  font-size: 20px;
+  padding: 10px 10px;
+  float: left;
+}
+#search {
+  border: 2px solid aquamarine;
+  width: 200px;
+  height: 50px;
+  transition-property: width;
+  transition-duration: 1s;
+}
+#search:hover {
+  width: 250px;
+}
+@keyframes changecolor {
+  0% {
+    background-color: blueviolet;
+    width: 220px;
+  }
+  25% {
+    background-color: brown;
+    height: 220px;
+  }
+  50% {
+    background-color: yellowgreen;
+    height: 250px;
+    width: 250px;
+  }
+  75% {
+    background-color: tomato;
+    width: 210px;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+#anim {
+  width: 200px;
+  height: 200px;
+  border: 2px solid royalblue;
+  background-color: blueviolet;
+  animation-name: changecolor;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
