@@ -90,6 +90,7 @@ p {
 #search {
   border: 2px solid aquamarine;
   width: 200px;
+  height: 50px;
   transition-property: width;
   transition-duration: 1s;
 }
